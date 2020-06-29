@@ -1,0 +1,28 @@
+{
+  "name": "bhgreen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "cuid": "2.1.8",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mongodb": "3.5.9",
+    "mongoose": "5.9.20"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.3",
+    "@babel/node": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "nodemon": "2.0.4"
+  }
+}
